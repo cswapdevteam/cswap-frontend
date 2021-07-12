@@ -129,5 +129,5 @@ const Final = styled.div`
 const Announce = styled.div`
   margin-top: 1em;
   margin-left: 0.4em;
-  color: #00000;
+  color: #ed4b9e;
 `

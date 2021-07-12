@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://quickswap.exchange/#/swap?outputCurrency=0x76879bacf1ed503dadc4e6e5482d851c654ab8e9',
+        href: 'https://quickswap.exchange/#/swap?outputCurrency=0xF13e6278Da0717235BFC84D535C54461e957feED',
       },
       {
         label: 'Liquidity',
-        href: 'https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x76879bacf1ed503dadc4e6e5482d851c654ab8e9',
+        href: 'https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xF13e6278Da0717235BFC84D535C54461e957feED',
       },
     ],
   },
@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/cswapdevteam/cryptoswap',
+        href: 'https://github.com/gameswapfinance/',
       },
       {
         label: 'Docs',
-        href: 'https://github.com/cswapdevteam/cryptoswap',
+        href: 'https://gameswapfinance.gitbook.io/gameswap/',
       },
       {
         label: 'Medium',
-        href: 'https://medium.com/@cswapfinance',
+        href: 'https://medium.com/@gameswapfinance',
       }
     ],
   },

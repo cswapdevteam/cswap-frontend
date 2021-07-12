@@ -3,13 +3,9 @@ import styled from 'styled-components'
 import { Heading, Card, CardBody, Button } from '@gameswapfinance/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
-// eslint-disable-next-line import/no-unresolved
 import useI18n from 'hooks/useI18n'
-// eslint-disable-next-line import/no-unresolved
 import { useAllHarvest } from 'hooks/useHarvest'
-// eslint-disable-next-line import/no-unresolved
 import useFarmsWithBalance from 'hooks/useFarmsWithBalance'
-// eslint-disable-next-line import/no-unresolved
 import UnlockButton from 'components/UnlockButton'
 import CakeHarvestBalance from './CakeHarvestBalance'
 import CakeWalletBalance from './CakeWalletBalance'
@@ -73,16 +69,16 @@ const FarmedStakingCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(542, 'My assets')}
+          {TranslateString(542, 'Farms & Staking')}
         </Heading>
         <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'CSWAP to harvest')}</Label>
+          <Label>{TranslateString(544, 'STONK to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'CSWAP in Wallet')}</Label>
+          <Label>{TranslateString(546, 'STONK in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -96,7 +92,7 @@ const FarmedStakingCard = () => {
             >
               {pendingTx
                 ? TranslateString(548, 'Collecting EGG')
-                : TranslateString(999, `Collect all (${balancesWithValue.length})`)}
+                : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (
             <UnlockButton fullWidth />

@@ -5,17 +5,17 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'CSWAP-USDC',
+    lpSymbol: 'STONK-USDC',
     lpAddresses: {
       97: '',
       56: '',
-      137: '0x67ac1898cd9e942094b2fb5cd158e76f0dddf19a', // CSWAP - MATIC
+      137: '0xf8B95faA6745f0712CEe7bb99909F16D7696206D', // STONK - USDC
     },
-    tokenSymbol: 'CSWAP',
+    tokenSymbol: 'STONK',
     tokenAddresses: {
       97: '',
       56: '',
-      137: '0x76879bacf1ed503dadc4e6e5482d851c654ab8e9',
+      137: '0xF13e6278Da0717235BFC84D535C54461e957feED',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,17 +24,17 @@ const farms: FarmConfig[] = [
     pid: 9,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'CSWAP',
+    lpSymbol: 'STONK',
     lpAddresses: {
       97: '',
       56: '',
-      137: '0x67ac1898cd9e942094b2fb5cd158e76f0dddf19a', // CSWAP - MATIC
+      137: '0xf8B95faA6745f0712CEe7bb99909F16D7696206D', // STONK - USDC
     },
-    tokenSymbol: 'CSWAP',
+    tokenSymbol: 'STONK',
     tokenAddresses: {
       97: '',
       56: '',
-      137: '0x76879bacf1ed503dadc4e6e5482d851c654ab8e9',
+      137: '0xF13e6278Da0717235BFC84D535C54461e957feED',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -43,7 +43,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 3,
-    lpSymbol: 'Not Avaible',
+    lpSymbol: 'WMATIC-USDC',
     lpAddresses: {
       97: '',
       56: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
